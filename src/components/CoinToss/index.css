@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.coin-container {
+  background-color: #f9d423;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-toss-game {
+  background-color: #ffffff;
+  min-height: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 340px;
+}
+.heading {
+  color: #a35200;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.Heads-Tails {
+  color: #334255;
+  font-size: 18px;
+  margin-top: 0px;
+}
+.Coin-size {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 30px;
+}
+.buttonel {
+  background-color: #f9d423;
+  color: #a35200;
+  border: 0px;
+  height: 30px;
+  width: 80px;
+  border-radius: 8px;
+  font-size: 9px;
+}
+.result-card {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.total-heading {
+  color: #334255;
+  font-size: 13px;
+  margin-right: 20px;
+}
